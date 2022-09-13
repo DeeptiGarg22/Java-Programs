@@ -1,12 +1,10 @@
-package assignment1;
-import java.util.*;
+package assignment2;
 public class ques7 {
-    public static void main(String args[]){
-        int yr;
-        String y;
-        Scanner sc=new Scanner(System.in);
-        System.out.println("Enter the Year");
-        yr=sc.nextInt();
-        y=((yr%400==0 && yr%4==0)||yr%100!=0?"Leap Year":"NOT");
-    }   
-}
+        public static void main(String args[]){
+            int x=127;
+            int y=-527;
+            System.out.println("The Absolute value of x is: "+Math.abs(x));
+            System.out.println("The Absolute value of y is: "+Math.abs(y));
+        }
+    }
+
