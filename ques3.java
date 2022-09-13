@@ -1,15 +1,18 @@
-package assignment1;
+package assignment2;
 import java.util.*;
 public class ques3 {
     public static void main(String args[]){
-        int l,b,area=0;
+        int qty;
+        double dis=0.0;
         Scanner sc=new Scanner(System.in);
-        System.out.println("Enter the length and breadth of rectangle");
-        l=sc.nextInt();
-        b=sc.nextInt();
-        area=l*b;
-        System.out.println("The Area of rectangle is:"+area);
+        System.out.println("Enter the quantity");
+        qty=sc.nextInt();
+        if(qty>1000){
+            dis=qty-((qty*10))/100;
+            System.out.println("The Quantity is: "+dis);
+        }
+        else{
+            System.out.println("The Quantiyt is: "+qty);
+        }
     }
 }
-
-
